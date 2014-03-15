@@ -1,0 +1,8 @@
+<body>
+</body>
+<script>
+    var id = window.location.pathname.split( '/' )[2];
+    var img = document.createElement("img");
+    img.src = 'https://fenix.tecnico.ulisboa.pt/api/fenix/v1/spaces/' + id + '/blueprint?format=jpeg';
+    document.body.appendChild(img);
+</script>
